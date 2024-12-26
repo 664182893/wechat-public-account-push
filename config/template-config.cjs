@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '宝~,早上好',
     desc: `
       **{{date.DATA}}**
       
@@ -10,7 +10,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      城市：{{city.DATA}},{{notice.DATA}}
+      城市：{{city.DATA}}
       
       天气：{{weather.DATA}}
       
