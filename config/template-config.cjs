@@ -24,11 +24,12 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们第{{love_day.DATA}}天纪念日~
+      我们在一起{{love_day.DATA}}天啦~
       
       {{birthday_message.DATA}}
       
       ---
+      {{earthy_love_words.DATA}}
       
       {{moment_copyrighting.DATA}}
       
