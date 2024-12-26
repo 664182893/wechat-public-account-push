@@ -21,9 +21,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝宝乖乖',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU33324TE4YBsp9lP4rZSwVHIQgf2R810fchsK1c',
+      id: 'o3E7o68jvqnjbV9eGV2X39rP1npA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
+      useTemplateId: 'pVwXCF0COkQEulRHm1hT1mAU-81P5LSEZhU2H4yKXos',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-04',
       festivals: [
