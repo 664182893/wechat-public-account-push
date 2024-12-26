@@ -6,7 +6,7 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-  USE_PASSAGE: 'push-deer',
+  USE_PASSAGE: 'wechat-test',
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx641ebad7206b5c0e',
 
@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o3E7o68jvqnjbV9eGV2X39rP1npA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'pVwXCF0COkQEulRHm1hT1mAU-81P5LSEZhU2H4yKXos',
+      useTemplateId: 'W5o79589L1xL0N1ga8oTBtfSI-fYDqPRcWw1fveN9vY',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-04',
       festivals: [
