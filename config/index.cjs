@@ -8,10 +8,10 @@
 const USER_CONFIG = {
   USE_PASSAGE: 'wechat-test',
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx641ebad7206b5c0e',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '720ffb854fcdea4c404bd004aae31ef3',
+  APP_SECRET: '',
 
   PROVINCE: '云南',
   CITY: '昆明',
@@ -22,6 +22,35 @@ const USER_CONFIG = {
       name: '宝宝乖乖',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o3E7o61VMBzSExnii1a-sdvAoeWQ',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'UaaW_WmHz4SbfR72bUIP_rFHBTB1tKsM41sdqf2LjEs',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '08-04',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        // {
+        //   type: '*生日', name: '纪念日', year: '2024', date: '11-28',
+        // },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '佳宝', year: '1998', date: '08-04',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2024-11-10' },
+        // 结婚纪念日
+         { keyword: 'birth_day', date: '2025-08-04' },
+        // pl生日
+         { keyword: 'birth1_day', date: '2025-04-03' }
+      ],
+    },
+    {
+      // 想要发送的人的名字
+      name: '黏人精，早上好~',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o3E7o68jvqnjbV9eGV2X39rP1npA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'UaaW_WmHz4SbfR72bUIP_rFHBTB1tKsM41sdqf2LjEs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
